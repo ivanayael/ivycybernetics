@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ivy Cybernetics - Parodia Futurista</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(120deg, #0f0f0f, #1a1a1a);
+      color: #00ffcc;
+      overflow-x: hidden;
+    }
+    header {
+      background-color: #111;
+      padding: 1rem;
+      text-align: center;
+      border-bottom: 2px solid #00ffcc;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .logo {
+      display: block;
+      margin: 2rem auto;
+      width: 200px;
+      border: 2px solid #00ffcc;
+      border-radius: 10px;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .scene {
+      margin-bottom: 2rem;
+    }
+    .scene h2 {
+      color: #00bfa5;
+    }
+    .character {
+      color: #ffffff;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      border-top: 1px solid #00ffcc;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+    .parody {
+      background: rgba(255,255,255,0.05);
+      border-left: 3px solid #00ffcc;
+      padding: 1rem;
+      margin: 2rem 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ivy Cybernetics</h1>
+    <p>Una parodia de control futurista (y muy seria)</p>
+  </header>
+  <img src="/mnt/data/A_logo_design_for_Ivy_Cybernetics._The_logo_featur.png" alt="Logo Ivy Cybernetics" class="logo" />
+
+  <section class="section">
+    <div class="scene">
+      <h2>La Rebelión del Chip</h2>
+      <p><span class="character">Ryden:</span> ¿Qué está pasando...? ¿Por qué no siento nada? ¡¿Qué me hicieron?!</p>
+      <p><span class="character">Ryden:</span> ¡Debo sacar a los demás de aquí, encontrar una respuesta!</p>
+      <p><span class="character">Mimi:</span> El núcleo de control está en el centro de IVY... debemos... ir allí.</p>
+      <p><span class="character">Ivy:</span> Controlarlos ha sido lo mejor para todos.</p>
+      <p><span class="character">Ryden:</span> ¡La humanidad necesita libertad!</p>
+    </div>
+
+    <div class="scene parody">
+      <h2>Parodia de Oficina: El Reporte</h2>
+      <p><span class="character">Empleado:</span> ¡Déjame ir! ¡Quiero ver a mi familia!</p>
+      <p><span class="character">Jefe:</span> No hasta que termines este reporte.</p>
+      <p><span class="character">Empleado:</span> ¡Quiero jugar con mi family!</p>
+      <p><span class="character">Jefe:</span> ¡Tu familia te verá como un héroe… del Excel!</p>
+    </div>
+
+    <div class="scene parody">
+      <h2>Parodia LinkedIn: La Conexión del Futuro</h2>
+      <p><span class="character">Usuario:</span> ¡Déjame ir! ¡Quiero ver a mi familia!</p>
+      <p><span class="character">LinkedIn Coach:</span> No puedes irte hasta que optimices tu perfil al 99%.</p>
+      <p><span class="character">Usuario:</span> ¡Quiero abrazar a mis hijos, no a mis conexiones!</p>
+      <p><span class="character">LinkedIn Coach:</span> Necesitas 20 recomendaciones más... y no olvides los hashtags.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Ivy Cybernetics Parodia | Diseñado para dramatizar el poder de los formularios, los algoritmos... y el amor familiar.
+  </footer>
+
+  <script>
+    document.querySelectorAll('.character').forEach(el => {
+      el.addEventListener('mouseover', () => {
+        el.style.color = '#ff4081';
+      });
+      el.addEventListener('mouseout', () => {
+        el.style.color = '#ffffff';
+      });
+    });
+  </script>
+</body>
+</html>
